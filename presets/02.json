@@ -1,0 +1,76 @@
+{
+  "name": "02",
+  "timestamp": "2025-10-06T20:10:04.371Z",
+  "animation": {
+    "loop": true,
+    "speedFactor": 1.65
+  },
+  "camera": {
+    "fov": 75,
+    "mode": "perspective"
+  },
+  "coordinates": {
+    "dataSpace": {
+      "scale": 1
+    }
+  },
+  "environment": {
+    "pathColor": "#F0B7B7"
+  },
+  "material": {
+    "movingLight": {
+      "emissiveIntensity": 1.5,
+      "enabled": true
+    },
+    "particles": {
+      "emissiveIntensity": 0.3,
+      "enabled": true
+    },
+    "path": {
+      "emissiveIntensity": 0.8,
+      "enabled": true
+    }
+  },
+  "particles": {
+    "breathIntensity": 0.1,
+    "dustColor": "#AF85B7",
+    "dustCount": 6600,
+    "dustOpacity": 0.6,
+    "dustSize": 0.6,
+    "floatIntensity": 0.2,
+    "pathPointColor": "#FFFFFF",
+    "pathPointSize": 0.5,
+    "rotationSpeed": 0,
+    "rotationTiltXY": 0,
+    "rotationTiltXZ": 0,
+    "systemScale": 1
+  },
+  "path": {
+    "depthIntensity": 0.5,
+    "scale": 1
+  },
+  "postprocess": {
+    "brightnessContrast": {
+      "brightness": 0,
+      "contrast": 0,
+      "enabled": false
+    },
+    "chromaticAberration": {
+      "enabled": false
+    },
+    "hueSaturation": {
+      "enabled": false,
+      "hue": 0,
+      "saturation": 0
+    },
+    "noise": {
+      "enabled": true,
+      "intensity": 0.088
+    },
+    "scanline": {
+      "density": 228.4,
+      "enabled": true,
+      "intensity": 0.28
+    }
+  }
+}
