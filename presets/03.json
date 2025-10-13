@@ -1,0 +1,74 @@
+{
+  "name": "03",
+  "timestamp": "2025-10-13T18:34:18.294Z",
+  "animation": {
+    "loop": true,
+    "speedFactor": 0.05
+  },
+  "camera": {
+    "fov": 75,
+    "mode": "perspective"
+  },
+  "coordinates": {
+    "dataSpace": {
+      "scale": 1.4
+    }
+  },
+  "environment": {
+    "pathColor": "#c8efb6"
+  },
+  "particles": {
+    "breathIntensity": 0.27,
+    "dustColor": "#c09bc7",
+    "dustCount": 1900,
+    "dustOpacity": 0.47,
+    "dustSize": 0.73,
+    "floatIntensity": 0.62,
+    "pathPointColor": "#F0B7B7",
+    "pathPointSize": 0.5,
+    "rotationSpeed": 0.1,
+    "rotationTiltXY": 52,
+    "rotationTiltXZ": -48,
+    "systemScale": 1
+  },
+  "path": {
+    "depthIntensity": 0.9500000000000001,
+    "scale": 1
+  },
+  "postprocess": {
+    "bloom": {
+      "enabled": true,
+      "intensity": 1,
+      "luminanceThreshold": 0.1
+    },
+    "bokeh": {
+      "aperture": 8.673617379884035e-19,
+      "dof": 0.016,
+      "enabled": false,
+      "focus": 41.099999999999994,
+      "maxBlur": 0.008
+    },
+    "brightnessContrast": {
+      "brightness": 0.04,
+      "contrast": 0.1,
+      "enabled": true
+    },
+    "chromaticAberration": {
+      "enabled": true,
+      "offset": {
+        "x": 0.001,
+        "y": 0.001
+      }
+    },
+    "enabled": true,
+    "film": {
+      "enabled": true,
+      "noiseIntensity": 0.29000000000000004,
+      "scanlineCount": 2368,
+      "scanlineIntensity": 0.26
+    }
+  },
+  "sceneComposition": {
+    "active": "modelAnt"
+  }
+}
